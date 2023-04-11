@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author Devsa
+ *
+ */
+module MyPracticeOfJava {
+}
