@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/lv"
+    >
+
+<Button
+    android:layout_width="200sp"
+    android:layout_height="200sp"
+    android:background="@drawable/updater"
+    android:backgroundTint="@color/white"
+    android:textColor="@color/white"
+    android:textSize="150sp"
+    android:id="@+id/BigButton"
+    />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/Weight_In_Kg"
+        android:id="@+id/et1Weight"
+        android:layout_gravity="center"
+        android:inputType="number"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/Height_in_ft"
+        android:id="@+id/et2Height_In_Ft"
+        android:layout_gravity="center"
+        android:inputType="number"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/Height_in_In"
+        android:layout_gravity="center"
+        android:id="@+id/et3Height_In_Inch"
+        android:inputType="number"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Calculate BMI"
+        android:id="@+id/Button"
+        android:textColor="#FFFFFF"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1"
+        android:hint="Result"
+        android:ems="10"
+        android:textSize="20sp"
+        android:gravity="center"/>
+</LinearLayout>

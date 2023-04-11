@@ -1,0 +1,32 @@
+body{
+    height: 100%;
+    width: 100%;
+}
+.header_divisio_design{
+    height: 70px;
+    width: 100%;
+    color: rgb(255, 255, 0);
+    background-color: blue;
+}
+
+.center_divisio_design{
+    height: 730px;
+    width: 100%;
+    background-color: rgb(216, 216, 216);
+}
+.center_spliter_one_left{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(71, 128, 128);
+}
+
+.center_spliter_one_right{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(115, 201, 201);
+}
+.footer_division_design{
+    height: 70px;
+    width: 100%;
+    background-color: blue;
+}

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">BMI Application</string>
+    <string name="Height_in_ft">Height in Ft</string>
+    <string name="Height_in_In">Height in In</string>
+    <string name="Weight_In_Kg">Weight in Kg</string>
+</resources>
