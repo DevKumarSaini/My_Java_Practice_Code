@@ -1,0 +1,11 @@
+*.class
+*.prefs
+*.xml
+*.setup
+*.ser
+*.txt
+*.lock
+*.log
+*.location
+*.version
+
